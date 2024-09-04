@@ -4,11 +4,13 @@
  */
 package BT1;
 
+import java.io.Serializable;
+
 /**
  *
  * @author DELL
  */
-public class SanPham {
+public class SanPham implements Serializable{
     private String maso;
     private String ten;
     private double donGia;

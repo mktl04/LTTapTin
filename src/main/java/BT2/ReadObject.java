@@ -31,6 +31,9 @@ public class ReadObject {
             {
                 System.out.println(sp);
             }
+        } catch (Exception ex){
+            System.out.println("Loi xay ra: " + ex.toString());
+            System.out.println("Doc file that bai");
         }
     }
     
